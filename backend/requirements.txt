@@ -1,0 +1,7 @@
+﻿fastapi
+uvicorn[standard]
+openai
+python-dotenv
+requests
+beautifulsoup4
+tqdm

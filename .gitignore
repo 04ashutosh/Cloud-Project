@@ -1,0 +1,3 @@
+﻿# Ignore environment files
+backend/.env
+*.env

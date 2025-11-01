@@ -64,3 +64,8 @@ async def qa(req: QueryReq):
     )
     answer = chat["choices"][0]["message"]["content"]
     return {"answer": answer, "sources": top}
+
+@app.post("/chat")
+async def chat(req: QueryReq):
+    return await qa(req)
+
